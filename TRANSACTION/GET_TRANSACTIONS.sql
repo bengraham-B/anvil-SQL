@@ -1,0 +1,1 @@
+SELECT * FROM transaction WHERE month = 7 AND year = 2024 ORDER BY date DESC
