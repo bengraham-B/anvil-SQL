@@ -1,2 +1,2 @@
 DELETE FROM transaction
-WHERE trnasaction_id = ''
+WHERE transaction_id = ''
