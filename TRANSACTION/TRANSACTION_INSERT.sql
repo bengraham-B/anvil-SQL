@@ -17,6 +17,6 @@ INSERT INTO transaction (
         'sweets-446372',
         'credit',
         26,
-        'July',
+        7,
         2024
 );

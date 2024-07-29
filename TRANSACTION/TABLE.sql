@@ -1,7 +1,7 @@
 CREATE TABLE transaction (
-    transaction_id uuid DEFAULT gen_random_uuid(),
+    transaction_id uuid DEFAULT gen_random_uuid() PRIMARY KEY,
     details TEXT,
-    amount FLOAT,
+    amount DECIMAL(10,2),
     date DATE,
     user_id TEXT,
     category_id TEXT,
@@ -10,12 +10,9 @@ CREATE TABLE transaction (
     month INT,
     year INT,
     transaction_group_id TEXT
-)
-
-ALTER TABLE transaction
-ALTER COLUMN month TYPE INT
+);
 
 CREATE TYPE DEBIT_OR_CREDIT AS ENUM (
     'debit',
     'credit'
-)
+);

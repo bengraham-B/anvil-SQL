@@ -1,0 +1,1 @@
+UPDATE transaction SET user_id = '4a8d2567-15f1-4279-b579-36730deed3e0' WHERE user_id = 'beng-56473';
