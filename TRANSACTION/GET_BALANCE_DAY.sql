@@ -1,0 +1,1 @@
+SELECT SUM(amount) FROM transaction WHERE day=${day} AND month=${month}

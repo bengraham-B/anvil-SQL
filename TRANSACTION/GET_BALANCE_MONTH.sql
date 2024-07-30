@@ -1,1 +1,1 @@
-SELECT SUM(amount) FROM transaction
+SELECT SUM(amount) FROM transaction WHERE month = ${month}
